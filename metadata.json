@@ -1,0 +1,16 @@
+{
+  "feature_names": [
+    "assessment_score",
+    "attendance_pct",
+    "lms_logins",
+    "resource_accesses",
+    "submission_delay_days"
+  ],
+  "weeks": 6,
+  "target_column": "At_Risk",
+  "threshold": 0.5,
+  "seed": 42,
+  "training_rows": 960,
+  "test_rows": 240,
+  "synthetic_data_warning": "Check the source dataset and disclose any simulated features."
+}
